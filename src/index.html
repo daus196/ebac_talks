@@ -1,14 +1,114 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles/main.scss">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ebac tech talks</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles/main.scss" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js" defer></script>
     <script src="scripts/main.js" defer></script>
-</head>
-<body>
-    <img src="../images/backend.png" alt="">
-    
-</body>
+  </head>
+  <body>
+    <header class="hero">
+      <div class="container">
+        <img class="hero__logo" src="./images/ebac_logo.svg" alt="" />
+
+        <p class="hero__text">
+          <span id="contador1"
+            >o maior evento de tecnologia do Brasil começa em
+            <span id="contador"></span
+          ></span>
+        </p>
+
+        <div class="infos-bar">
+          <ul class="infos-bar__infos">
+            <li class="infos-bar__infos__item">
+              <b>localizaçao</b>
+              allianz parque - SP
+            </li>
+            <li class="infos-bar__infos__item">
+              <b>Preço</b>
+              A partir de R$ 120,00
+            </li>
+            <li class="infos-bar__infos__item">
+              <b>Quando</b>
+              12/12/2024 as 19hrs
+            </li>
+          </ul>
+
+          <a href="#" class="button button--primary">Garanta sua vaga</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="event event--front-end">
+      <div class="container" data-aos="fade-right">
+        <div class="event__details">
+          <h2 class="event__details__title">Front-end</h2>
+          <p class="event__details__description">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. A, odit.
+            Officia velit dolorem omnis, accusantium sequi modi illo porro
+            quidem repellendus tempore provident consequatur, minus consequuntur
+            debitis, libero neque expedita.
+          </p>
+        </div>
+        <img class="event__image" src="images/frontend.png" alt="front-end" />
+      </div>
+    </section>
+
+    <section class="event event--ux-ui">
+      <div class="container" data-aos="fade-left">
+        <img class="event__image" src="images/frontend.png" alt="front-end" />
+        <div class="event__details">
+          <h2 class="event__details__title">Ui-Ux</h2>
+          <p class="event__details__description">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. A, odit.
+            Officia velit dolorem omnis, accusantium sequi modi illo porro
+            quidem repellendus tempore provident consequatur, minus consequuntur
+            debitis, libero neque expedita.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="event event--data">
+      <div class="container" data-aos="fade-right">
+        <div class="event__details">
+          <h2 class="event__details__title">data</h2>
+          <p class="event__details__description">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. A, odit.
+            Officia velit dolorem omnis, accusantium sequi modi illo porro
+            quidem repellendus tempore provident consequatur, minus consequuntur
+            debitis, libero neque expedita.
+          </p>
+        </div>
+        <img class="event__image" src="images/frontend.png" alt="front-end" />
+      </div>
+    </section>
+
+    <section class="event event--back">
+      <div class="container" data-aos="fade-left">
+        <img class="event__image" src="images/frontend.png" alt="front-end" />
+        <div class="event__details">
+          <h2 class="event__details__title">back</h2>
+          <p class="event__details__description">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. A, odit.
+            Officia velit dolorem omnis, accusantium sequi modi illo porro
+            quidem repellendus tempore provident consequatur, minus consequuntur
+            debitis, libero neque expedita.
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
